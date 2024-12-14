@@ -1,0 +1,18 @@
+POST http://localhost:8080/metrics/ata
+Content-Type: application/json
+
+{
+  "ataMetricCO": {
+    "title": "测试标题",
+    "url": "测试链接",
+    "thumbsUpCount": 1,
+    "hitCount": 1,
+    "commentCount": 1,
+    "favoriteCount": 1,
+    "ownerId": "1"
+  }
+}
+
+###
+
+GET http://localhost:8080/metrics/ata?ownerId=1
