@@ -1,8 +1,7 @@
 package com.alibaba.craftsman.dto.clientobject;
 
+import jakarta.validation.constraints.NotEmpty;
 import lombok.Data;
-
-import javax.validation.constraints.NotEmpty;
 
 /**
  * PaperMetricCO

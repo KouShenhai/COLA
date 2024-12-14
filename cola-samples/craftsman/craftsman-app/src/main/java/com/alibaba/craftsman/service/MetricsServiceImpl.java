@@ -10,7 +10,7 @@ import com.alibaba.craftsman.dto.*;
 import com.alibaba.craftsman.dto.clientobject.ATAMetricCO;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 
 /**
  * MetricsServiceImpl

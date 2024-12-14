@@ -8,11 +8,11 @@ import com.alibaba.craftsman.domain.user.Role;
 import com.alibaba.craftsman.domain.user.UserProfile;
 import com.alibaba.craftsman.gatewayimpl.database.UserProfileMapper;
 import com.alibaba.craftsman.gatewayimpl.database.dataobject.UserProfileDO;
+import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.Resource;
 
 /**
  * UserProfileGatewayImpl

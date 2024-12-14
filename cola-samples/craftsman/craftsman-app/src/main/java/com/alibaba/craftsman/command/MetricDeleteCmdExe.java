@@ -3,9 +3,9 @@ package com.alibaba.craftsman.command;
 import com.alibaba.cola.dto.Response;
 import com.alibaba.craftsman.domain.gateway.MetricGateway;
 import com.alibaba.craftsman.dto.MetricDeleteCmd;
+import jakarta.annotation.Resource;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.Resource;
 
 /**
  * MetricDeleteCmdExe

@@ -16,7 +16,7 @@ public class MetricsController {
     private MetricsServiceI metricsService;
 
     @GetMapping(value = "/metrics/ata")
-    public MultiResponse<ATAMetricCO> listATAMetrics(@RequestParam String ownerId){
+    public MultiResponse<ATAMetricCO> listATAMetrics(@RequestParam("ownerId") String ownerId){
         ATAMetricQry ataMetricQry = new ATAMetricQry();
         ataMetricQry.setOwnerId(ownerId);
         return metricsService.listATAMetrics(ataMetricQry);

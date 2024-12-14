@@ -1,13 +1,16 @@
 package com.alibaba.craftsman.gatewayimpl.database;
 
 import com.alibaba.craftsman.gatewayimpl.database.dataobject.MetricDO;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 @Mapper
-public interface MetricMapper {
+@Repository
+public interface MetricMapper extends BaseMapper<MetricDO> {
 
     int create(MetricDO dataObject);
 

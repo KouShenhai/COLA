@@ -25,7 +25,7 @@ public class AppMetricItem extends MetricItem {
         score = duductScore(score, duplicatedMethodCount);
         score = duductScore(score, longMethodCount);
         score = duductScore(score, blockedCodeConductCount);
-        log.debug("Calculated App score is "+score );
+        log.debug("Calculated App score is {}", score);
         return score;
     }
 

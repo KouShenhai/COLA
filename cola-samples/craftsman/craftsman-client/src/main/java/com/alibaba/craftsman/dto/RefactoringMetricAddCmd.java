@@ -1,10 +1,9 @@
 package com.alibaba.craftsman.dto;
 
-import com.alibaba.craftsman.dto.clientobject.MiscMetricCO;
 import com.alibaba.craftsman.dto.clientobject.RefactoringMetricCO;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
-import javax.validation.constraints.NotNull;
 
 /**
  * RefactoringMetricAddCmd

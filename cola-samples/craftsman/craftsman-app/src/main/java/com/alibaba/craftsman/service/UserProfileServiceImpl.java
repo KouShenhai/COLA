@@ -14,7 +14,7 @@ import com.alibaba.craftsman.dto.*;
 import com.alibaba.craftsman.dto.clientobject.UserProfileCO;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 
 /**
  * UserProfileServiceImpl

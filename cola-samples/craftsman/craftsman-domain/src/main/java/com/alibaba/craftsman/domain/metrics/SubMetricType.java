@@ -1,11 +1,14 @@
 package com.alibaba.craftsman.domain.metrics;
 
+import lombok.Getter;
+
 /**
  * SubMetricType
  *
  * @author Frank Zhang
  * @date 2018-08-27 4:54 PM
  */
+@Getter
 public enum SubMetricType {
 
     LongMethod(MainMetricType.APP_QUALITY, "LongMethod","超长方法"),
@@ -28,30 +31,18 @@ public enum SubMetricType {
     ;
 
     //度量类型
-    private MainMetricType parentType;
+    private final MainMetricType parentType;
 
     //度量项Code
-    private String metricSubTypeCode;
+    private final String metricSubTypeCode;
 
     //度量项中文名称
-    private String metricSubTypeName;
+    private final String metricSubTypeName;
 
     private SubMetricType(MainMetricType parentType, String metricSubTypeCode, String metricSubTypeName){
         this.parentType = parentType;
         this.metricSubTypeCode = metricSubTypeCode;
         this.metricSubTypeName = metricSubTypeName;
-    }
-
-    public MainMetricType getParentType() {
-        return parentType;
-    }
-
-    public String getMetricSubTypeCode() {
-        return metricSubTypeCode;
-    }
-
-    public String getMetricSubTypeName() {
-        return metricSubTypeName;
     }
 
 

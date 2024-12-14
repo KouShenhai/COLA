@@ -7,7 +7,7 @@ import com.alibaba.craftsman.dto.UserProfileUpdateCmd;
 import com.alibaba.craftsman.domain.gateway.UserProfileGateway;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 
 @Component
 public class UserProfileUpdateCmdExe{

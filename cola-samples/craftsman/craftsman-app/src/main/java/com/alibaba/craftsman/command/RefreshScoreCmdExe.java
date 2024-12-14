@@ -13,9 +13,9 @@ import com.alibaba.craftsman.domain.user.UserProfile;
 import com.alibaba.craftsman.dto.RefreshScoreCmd;
 import com.alibaba.craftsman.domain.gateway.MetricGateway;
 import com.alibaba.craftsman.domain.gateway.UserProfileGateway;
+import jakarta.annotation.Resource;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 @Component

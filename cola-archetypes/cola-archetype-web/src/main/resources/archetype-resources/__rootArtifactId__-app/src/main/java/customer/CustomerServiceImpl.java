@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 import ${package}.customer.executor.CustomerAddCmdExe;
 import ${package}.customer.executor.query.CustomerListByNameQryExe;
 
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 
 
 @Service

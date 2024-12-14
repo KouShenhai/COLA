@@ -20,11 +20,11 @@ import com.alibaba.craftsman.gatewayimpl.rpc.AppMetricMapper;
 import com.alibaba.craftsman.gatewayimpl.rpc.BugMetricMapper;
 import com.alibaba.craftsman.gatewayimpl.rpc.dataobject.AppMetricDO;
 import com.alibaba.craftsman.gatewayimpl.rpc.dataobject.BugMetricDO;
+import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 

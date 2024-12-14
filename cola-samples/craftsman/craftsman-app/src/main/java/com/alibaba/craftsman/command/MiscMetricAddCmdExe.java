@@ -7,10 +7,10 @@ import com.alibaba.craftsman.domain.metrics.techcontribution.MiscMetricItem;
 import com.alibaba.craftsman.domain.user.UserProfile;
 import com.alibaba.craftsman.dto.MiscMetricAddCmd;
 import com.alibaba.craftsman.domain.gateway.MetricGateway;
+import jakarta.annotation.Resource;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.Resource;
 
 /**
  * MiscMetricAddCmdExe

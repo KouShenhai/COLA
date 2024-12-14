@@ -2,9 +2,9 @@ package com.alibaba.craftsman.dto;
 
 import com.alibaba.craftsman.dto.clientobject.ATAMetricCO;
 import com.alibaba.craftsman.dto.clientobject.PatentMetricCO;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
-import javax.validation.constraints.NotNull;
 
 /**
  * PatentMetricAddCmd

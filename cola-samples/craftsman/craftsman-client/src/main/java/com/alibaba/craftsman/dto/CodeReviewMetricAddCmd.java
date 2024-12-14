@@ -1,9 +1,8 @@
 package com.alibaba.craftsman.dto;
 
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Positive;
 import lombok.Data;
-
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Positive;
 
 /**
  * CodeReviewMetricAddCmd
